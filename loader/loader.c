@@ -29,7 +29,7 @@
  * 
  *  Supported Chips:
  * 
- *      - Version 1.0
+ *      - Version 0
  * 
  * +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
  * 
@@ -58,7 +58,7 @@ static const char code_top[] =
     ";           Department of Computer Science and Engineering\n"
     ";           Chip Lab\n"
     ";\n"
-    ";    Desc:  This is a ROM loader for the Simple Chip V1.\n"
+    ";    Desc:  This is a ROM loader for the Simple Chip V0.\n"
     ";           This program is usually used with the ROM loader generator\n"
     ";           which is used to generate the data for this program.\n"
     ";\n"
