@@ -1,6 +1,6 @@
 ; ===============================================
 ; =                                             =
-; =  Chip:  V0                                  =
+; =  Chip:  Simple, V0                          =
 ; =  Test:  Branch Test                         =
 ; =  By:    David Schor                         =
 ; =                                             =

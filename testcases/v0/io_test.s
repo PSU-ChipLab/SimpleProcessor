@@ -1,6 +1,6 @@
 ; ===============================================
 ; =                                             =
-; =  Chip:  V27K-CT/CS/CU                       =
+; =  Chip:  Simple, V0                          =
 ; =  Test:  Input/Output Test                   =
 ; =  By:    David Schor                         =
 ; =                                             =
