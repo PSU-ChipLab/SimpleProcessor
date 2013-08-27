@@ -18,6 +18,8 @@ The full datasheet with pin-out and instructions can be [found here](/specs/v0/C
 
 ![Simple Chip, V0](specs/v0/pinout.png)
 
+`PAS` can be used to assemble programs for this chip. You can find a set of [sample programs here](/testcases/v0).
+
 
 PAS - Penn State Assembler
 ===
