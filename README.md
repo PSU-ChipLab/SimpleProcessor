@@ -14,5 +14,13 @@ Simple, V0
 ====
 
 `Simple, V0` is the first version of the chip.
+The full datasheet with pin-out and instructions can be [found here](/specs/v0/ChipV0.pdf).
 
 ![Simple Chip, V0](specs/v0/pinout.png)
+
+
+PAS - Penn State Assembler
+===
+
+`PAS` is the assembler program we developed for the Simple Chip series.
+You can find more information about it [here](/assembler).
