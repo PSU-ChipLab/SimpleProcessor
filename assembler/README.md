@@ -1,7 +1,7 @@
-PAS - PAS - Penn State Assembler
+PAS - The Penn State Assembler
 ========
 
-`PAS` (short for Penn State Assembler) is a program capable of converting the Simple Chip instruction set into an object code which can then be executed by the processor.
+`PAS`, the Penn State Assembler, is a program capable of converting the Simple Chip instruction set into an object code which can then be executed by the processor.
 PAS is a two-stage assembler with constants, lables, and comments support. PAS is designed to extensible as to support future versions of the Simple Chip.
 
 Build Steps
@@ -48,5 +48,23 @@ It's important to understand that the assembler may use `register 0` when necess
       MV      9, 1
       MV      #0xF, 1
 ```
+
+The assembler also supports the equate assembler directive for constants.
+
+```
+foo:  equ   0xFF
+bar:  equ   0x00
+baz:  equ   0x12
+
+   A:
+      BLT     1, 2, 3
+      MV      #foo, 2
+      DECZ    2
+      MV      #bar, 4
+   B: BC      A
+      ADD     #baz, 4
+      MV      #0xF, 1
+```
+
 
 A set of sample programs can be [found here](/testcases/v0).
